@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text for contrast */
+    padding-bottom: 60px; /* Add padding to the bottom to prevent content overlap */
+}
+
+header {
+    background-color: #3b5998;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    padding: 1rem;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #333333; /* Dark grey background */
+    padding: 1rem;
+}
+
+.content {
+    flex: 2;
+    background-color: #1a1a1a; /* Darker grey background */
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.profile {
+    flex: 1;
+    background-color: #1a1a1a; /* Darker grey background */
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.post {
+    background-color: #333333; /* Dark grey background */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #444444; /* Slightly lighter grey border */
+}
+
+footer {
+    background-color: #3b5998;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000; /* Ensure the footer is above other elements */
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ffffff; /* White border for profile picture */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.social-icons a {
+    color: #ffffff; /* White color for icons */
+    font-size: 2rem; /* Increase icon size */
+}
+
+a {
+    color: #1e90ff; /* Dodger blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
